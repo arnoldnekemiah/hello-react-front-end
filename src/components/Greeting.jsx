@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchRandomGreeting } from './redux/actions';
+import { fetchRandomGreeting } from '../redux/actions';
+// import API_BASE_URL from '../apiConfig';    
 
 function Greeting() {
   const dispatch = useDispatch();
